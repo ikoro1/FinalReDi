@@ -1,0 +1,5 @@
+[{'model_name': 'vgg16', 'class_name1': 'bucket', 'confidence1': 16.896088421344757, 'class_name2': 'pencil_sharpener', 'confidence2': 7.341752201318741, 'class_name3': 'maraca', 'confidence3': 7.004626840353012},
+{'model_name': 'resnet50', 'class_name1': 'pencil_sharpener', 'confidence1': 92.09170937538147, 'class_name2': 'rubber_eraser', 'confidence2': 5.918096378445625, 'class_name3': 'matchstick', 'confidence3': 1.0560974478721619},
+{'model_name': 'densenet201', 'class_name1': 'lemon', 'confidence1': 99.5189905166626, 'class_name2': 'grocery_store', 'confidence2': 0.15449748607352376, 'class_name3': 'banana', 'confidence3': 0.1323146396316588},
+{'model_name': 'convnextbase', 'class_name1': 'rubber_eraser', 'confidence1': 45.876023173332214, 'class_name2': 'pencil_box', 'confidence2': 17.550113797187805, 'class_name3': 'pencil_sharpener', 'confidence3': 14.43202793598175},
+{'model_name': 'efficientnetV2M', 'class_name1': 'rubber_eraser', 'confidence1': 18.75564157962799, 'class_name2': 'bucket', 'confidence2': 8.261435478925705, 'class_name3': 'matchstick', 'confidence3': 6.921986490488052}]

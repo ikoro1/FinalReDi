@@ -1,0 +1,5 @@
+[{'model_name': 'vgg16', 'class_name1': 'fox_squirrel', 'confidence1': 99.41222071647644, 'class_name2': 'wood_rabbit', 'confidence2': 0.3802624065428972, 'class_name3': 'marmot', 'confidence3': 0.0813413760624826},
+{'model_name': 'resnet50', 'class_name1': 'fox_squirrel', 'confidence1': 98.57286810874939, 'class_name2': 'marmot', 'confidence2': 0.22523091174662113, 'class_name3': 'ringlet', 'confidence3': 0.17692027613520622},
+{'model_name': 'densenet201', 'class_name1': 'rule', 'confidence1': 99.66541528701782, 'class_name2': 'analog_clock', 'confidence2': 0.33423202112317085, 'class_name3': 'long-horned_beetle', 'confidence3': 0.0003155062813675613},
+{'model_name': 'convnextbase', 'class_name1': 'fox_squirrel', 'confidence1': 94.60296034812927, 'class_name2': 'marmot', 'confidence2': 0.09760392713360488, 'class_name3': 'ear', 'confidence3': 0.08059100364334881},
+{'model_name': 'efficientnetV2M', 'class_name1': 'fox_squirrel', 'confidence1': 82.3479175567627, 'class_name2': 'ear', 'confidence2': 0.2252969890832901, 'class_name3': 'corn', 'confidence3': 0.1765947788953781}]

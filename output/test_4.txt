@@ -1,0 +1,5 @@
+[{'model_name': 'vgg16', 'class_name1': 'barn', 'confidence1': 18.80211979150772, 'class_name2': 'church', 'confidence2': 17.642468214035034, 'class_name3': 'megalith', 'confidence3': 12.335436046123505},
+{'model_name': 'resnet50', 'class_name1': 'rapeseed', 'confidence1': 70.58084607124329, 'class_name2': 'hay', 'confidence2': 6.386139243841171, 'class_name3': 'barn', 'confidence3': 4.165304452180862},
+{'model_name': 'densenet201', 'class_name1': 'chainlink_fence', 'confidence1': 99.86162185668945, 'class_name2': 'lemon', 'confidence2': 0.13837709557265043, 'class_name3': 'analog_clock', 'confidence3': 3.54268480870501e-13},
+{'model_name': 'convnextbase', 'class_name1': 'megalith', 'confidence1': 37.89185881614685, 'class_name2': 'thatch', 'confidence2': 10.88821217417717, 'class_name3': 'church', 'confidence3': 7.608972489833832},
+{'model_name': 'efficientnetV2M', 'class_name1': 'window_screen', 'confidence1': 22.324855625629425, 'class_name2': 'chainlink_fence', 'confidence2': 14.434947073459625, 'class_name3': 'shower_curtain', 'confidence3': 3.4441325813531876}]
