@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <style>
+        .confidence-bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Classification</h1>
+
+    {% if result %}
+        <h2>Results:</h2>
+        <img src="data:image/png;base64,{{ result.image_base64 }}" alt="Uploaded Image" width="400">
+        <ul>
+            {% for res in result.results %}
+                <li>{{ res.model_name }}:
+                    {% if res.confidence1 >= res.confidence2 and res.confidence1 >= res.confidence3 %}
+                        <span class="confidence-bold">{{ res.class_name1 }}, {{ res.confidence1 | round(2) }}%</span>;
+                    {% else %}
+                        {{ res.class_name1 }}, {{ res.confidence1 | round(2) }}%;
+                    {% endif %}
+
+                    {% if res.confidence2 >= res.confidence1 and res.confidence2 >= res.confidence3 %}
+                        <span class="confidence-bold">{{ res.class_name2 }}, {{ res.confidence2 | round(2) }}%</span>;
+                    {% else %}
+                        {{ res.class_name2 }}, {{ res.confidence2 | round(2) }}%;
+                    {% endif %}
+
+                    {% if res.confidence3 >= res.confidence1 and res.confidence3 >= res.confidence2 %}
+                        <span class="confidence-bold">{{ res.class_name3 }}, {{ res.confidence3 | round(2) }}%</span>
+                    {% else %}
+                        {{ res.class_name3 }}, {{ res.confidence3 | round(2) }}%
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".jpg, .jpeg, .png">
+        <br>
+        <input type="submit" value="Upload and Classify">
+    </form>
+</body>
+</html>

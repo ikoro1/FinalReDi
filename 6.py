@@ -87,61 +87,61 @@ def process_image(file_path, models_dict, img_formats_dict):
 #
 ### Test without flask
 #
-
-filename = 'test_11.webp'
-image_file_path = os.path.join('C:\\Users\\User\\Documents\\Study_Python\\ReDi\\Python-2023\\Final_Project\\input', filename)
-results_file_path =  os.path.join('C:\\Users\\User\\Documents\\Study_Python\\ReDi\\Python-2023\\Final_Project\\output', filename.replace('.webp', '.txt'))
-results = process_image(image_file_path, models_dict, img_formats_dict)
-
-with open(results_file_path, 'w', encoding='utf-8') as f:
-    f.write(str(results))
-
-print(results)
+#
+# filename = 'test_11.webp'
+# image_file_path = os.path.join('C:\\Users\\User\\Documents\\Study_Python\\ReDi\\Python-2023\\Final_Project\\input', filename)
+# results_file_path =  os.path.join('C:\\Users\\User\\Documents\\Study_Python\\ReDi\\Python-2023\\Final_Project\\output', filename.replace('.webp', '.txt'))
+# results = process_image(image_file_path, models_dict, img_formats_dict)
+#
+# with open(results_file_path, 'w', encoding='utf-8') as f:
+#     f.write(str(results))
+#
+# print(results)
 
 
 # Setting up Flask
-#app = Flask(__name__)
+app = Flask(__name__)
 # Routing to main (index) page
-#@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 
 
-#def index():
-#    ''' Index page '''
+def index():
+   ''' Index page '''
 
-#    result = None
-#    error = None
+   result = None
+   error = None
 
     # Handling POST requests
-#    if request.method == 'POST':
-#        if 'file' not in request.files:
-#            error = 'No file part'
-#        else:
-#            file = request.files['file']
-#            if file.filename == '':
-#                error = 'No selected file'
-#            elif file:
-#                upload_folder = 'uploads'
-#                if not os.path.exists(upload_folder):
-#                    os.makedirs(upload_folder)
-#                file_path = os.path.join(upload_folder, file.filename)
-#                file.save(file_path)
+   if request.method == 'POST':
+       if 'file' not in request.files:
+           error = 'No file part'
+       else:
+           file = request.files['file']
+           if file.filename == '':
+               error = 'No selected file'
+           elif file:
+               upload_folder = 'uploads'
+               if not os.path.exists(upload_folder):
+                   os.makedirs(upload_folder)
+               file_path = os.path.join(upload_folder, file.filename)
+               file.save(file_path)
 
-#                # Performing classification
-#                results = process_image(file_path, models_dict, img_formats_dict)
-#                # Getting original image for page rendering
-#                image_base64 = image_to_base64(file_path)
+               # Performing classification
+               results = process_image(file_path, models_dict, img_formats_dict)
+               # Getting original image for page rendering
+               image_base64 = image_to_base64(file_path)
                 
-#                result = {'image_base64': image_base64, 'results': results}
+               result = {'image_base64': image_base64, 'results': results}
 
-#    return render_template('test_with_flask.html', result=result, error=error)
+   return render_template('bold.html', result=result, error=error)
 
-#if __name__ == '__main__':
-#    app.run(debug=True, port=5003)
+if __name__ == '__main__':
+   app.run(debug=True, port=5003)
 
+
+## ???
 #
-### ???
 #
-
 # file extension checker
 # error handler
 # several pages on web-site
