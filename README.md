@@ -1,61 +1,40 @@
+Image Classification Web Application
+Overview:
+Welcome to the Image Classification Web Application! This application utilizes Flask, TensorFlow, and various pre-trained deep learning models to classify images. Whether you're a developer or enthusiast, this tool offers a simple and intuitive interface for understanding the content of your images.
 
-Image Classification Web App - Technical Specification
-Overview
-This Flask web application allows users to upload an image, and it leverages pre-trained deep learning models (ResNet50, VGG16, ConvNeXtBase) to perform image classification. The results, including class names and confidence scores, are displayed on the web interface.
+Features:
+Model Options: Choose from a selection of pre-trained models, including VGG16, ResNet50, ConvNeXtBase, and EfficientNetV2M.
 
-Dependencies
-Ensure you have the following dependencies installed:
+Upload and Classify: Easily upload an image and receive real-time classification results, showcasing the top three predicted classes along with confidence levels.
 
-Python 3.x
-Flask
-TensorFlow
-Matplotlib
-NumPy
-Install the dependencies using the following command:
+Versatile Use: The application's architecture allows for seamless integration into diverse domains, from object recognition in photos to potential applications in medical imaging or security.
+
+Setup:
+Install Dependencies:
 
 bash
 Copy code
 pip install flask tensorflow matplotlib numpy
-Usage
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/image-classification-web-app.git
-cd image-classification-web-app
-Run the Flask application:
-bash
-Copy code
-python app.py
-Open your web browser and navigate to http://localhost:5003/.
-Configuration
-The application supports the following command-line arguments:
-
--m or --model: Specify the deep learning model to use for classification (options: 'resnet50', 'vgg16', 'convnextbase'). Default is 'resnet50'.
-Example:
+Run the Application:
 
 bash
 Copy code
-python app.py -m vgg16
-File Structure
-app.py: The main Flask application file.
-templates/index4.html: HTML template for the web interface.
-uploads/: Folder where uploaded images are stored.
-Image Processing
-The process_image function in app.py is responsible for loading, preprocessing, and classifying the uploaded image. It uses TensorFlow and Matplotlib for image processing.
+python your_app_filename.py
+Access the Web Interface:
+Open your web browser and navigate to http://localhost:5003.
 
-Web Interface
-The web interface (index4.html) includes a form for file uploads, an image display, and a list of classification results. Results include the model name, class name, and confidence score.
+Usage:
+Upload Image:
 
-Deployment
-The application is configured to run on http://localhost:5003/ by default. For deployment in production, consider using a production-ready web server (e.g., Gunicorn) and configuring a reverse proxy (e.g., Nginx or Apache).
+Click the "Choose File" button to select an image in JPG, JPEG, or PNG format.
+Click "Upload and Classify" to initiate the classification process.
+View Results:
 
-License
-This project is licensed under the MIT License.
+Explore the original image alongside the top three predicted classes and their confidence levels.
+Gain insights into the classification outcomes for each selected model.
+Without Flask:
+For non-web use, the application can also be run without Flask by uncommenting the relevant code in your script. Simply follow the commented instructions in the code.
 
-Acknowledgments
-The application utilizes pre-trained models from TensorFlow's Keras applications.
-Flask is used for creating the web application.
-Support and Contribution
-For support or contributions, please open an issue or pull request on the GitHub repository.
+Acknowledgments:
+This application was developed as part of a Python Foundation course. Feel free to customize, extend, or contribute to enhance its functionality.
 
-Feel free to customize this technical specification based on your specific requirements and additional features. Include any relevant information about the models, data preprocessing, or additional functionality implemented in the application.
