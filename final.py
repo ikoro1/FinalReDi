@@ -13,7 +13,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # Dictionary of models (mapping in-code model name to actual TensorFlow model)
 models_dict = {'vgg16': tf.keras.applications.vgg16.VGG16(weights='imagenet'),
     'resnet50': tf.keras.applications.resnet50.ResNet50(weights='imagenet'),
-#    'densenet201': tf.keras.applications.densenet.DenseNet201(weights='imagenet'),
     'convnextbase': tf.keras.applications.convnext.ConvNeXtBase(weights='imagenet'),
     'efficientnetV2M': tf.keras.applications.efficientnet_v2.EfficientNetV2M(weights='imagenet'),
     }
@@ -21,7 +20,6 @@ models_dict = {'vgg16': tf.keras.applications.vgg16.VGG16(weights='imagenet'),
 
 img_formats_dict = {'vgg16': (224, 224),
     'resnet50': (224, 224),
-#    'densenet201': (224, 224),
     'convnextbase': (224, 224),
     'efficientnetV2M': (480, 480),
     }
@@ -123,21 +121,3 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True, port=5003)
 
-
-
-#
-### Without flask
-#
-
-#filename = 'grapefruit.jpg'
-#image_file_path = os.path.join('C:\\Users\\User\\Documents\\Study_Python\\ReDi\\Python-2023\\Final_Project\\input', filename)
-#results_file_path =  os.path.join('C:\\Users\\User\\Documents\\Study_Python\\ReDi\\Python-2023\\Final_Project\\output', filename.replace('.jpg', '.txt'))
-#results = process_image(image_file_path, models_dict, img_formats_dict)
-## Formatting resuls and saving to file
-#formated_results = ''
-#for el in results:
-#    formated_results += 'Model - ' + str(el['model_name']) + ': ' + str(el['class_name1']) + ' ' + str(el['confidence1'])  + "%, " + \
-#    str(el['class_name2']) + ' ' + str(el['confidence2']) + "%, " + str(el['class_name3']) + ' ' + str(el['confidence3']) + "%.\n" 
-#print(formated_results)
-#with open(results_file_path, 'w', encoding='utf-8') as f:
-#    f.write(str(formated_results))
