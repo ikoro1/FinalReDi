@@ -116,7 +116,7 @@ def index():
                 
                 result = {'image_base64': image_base64, 'results': results}
 
-    return render_template('test_with_flask.html', result=result, error=error)
+    return render_template('final.html', result=result, error=error)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5003)

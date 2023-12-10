@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'conch', 'confidence1': 15.313780307769775, 'class_name2': 'ant', 'confidence2': 5.722033604979515, 'class_name3': 'bee', 'confidence3': 4.9518391489982605},
-{'model_name': 'resnet50', 'class_name1': "yellow_lady's_slipper", 'confidence1': 15.714892745018005, 'class_name2': 'conch', 'confidence2': 10.274429619312286, 'class_name3': 'lemon', 'confidence3': 9.27015095949173},
-{'model_name': 'densenet201', 'class_name1': 'snowplow', 'confidence1': 99.96365308761597, 'class_name2': 'ashcan', 'confidence2': 0.036335407639853656, 'class_name3': 'ski', 'confidence3': 6.51777654070429e-06},
-{'model_name': 'convnextbase', 'class_name1': 'candle', 'confidence1': 60.84386110305786, 'class_name2': 'lampshade', 'confidence2': 2.6445403695106506, 'class_name3': 'perfume', 'confidence3': 1.6473621129989624},
-{'model_name': 'efficientnetV2M', 'class_name1': 'candle', 'confidence1': 45.21816968917847, 'class_name2': 'paper_towel', 'confidence2': 23.142009973526, 'class_name3': 'plastic_bag', 'confidence3': 3.511684387922287}]

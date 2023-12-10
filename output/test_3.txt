@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'lemon', 'confidence1': 82.27806091308594, 'class_name2': 'orange', 'confidence2': 11.975092440843582, 'class_name3': 'Granny_Smith', 'confidence3': 1.6073457896709442},
-{'model_name': 'resnet50', 'class_name1': 'lemon', 'confidence1': 99.27695393562317, 'class_name2': 'orange', 'confidence2': 0.38280878216028214, 'class_name3': 'fig', 'confidence3': 0.10937938932329416},
-{'model_name': 'densenet201', 'class_name1': 'traffic_light', 'confidence1': 99.99921321868896, 'class_name2': 'analog_clock', 'confidence2': 0.0004809290658158716, 'class_name3': 'web_site', 'confidence3': 0.0002832460722856922},
-{'model_name': 'convnextbase', 'class_name1': 'lemon', 'confidence1': 82.39971399307251, 'class_name2': 'orange', 'confidence2': 7.650546729564667, 'class_name3': 'bubble', 'confidence3': 0.33069150522351265},
-{'model_name': 'efficientnetV2M', 'class_name1': 'lemon', 'confidence1': 54.501140117645264, 'class_name2': 'orange', 'confidence2': 15.234707295894623, 'class_name3': 'pomegranate', 'confidence3': 0.26900297962129116}]

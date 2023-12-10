@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'crash_helmet', 'confidence1': 97.15328216552734, 'class_name2': 'mountain_bike', 'confidence2': 1.087094284594059, 'class_name3': 'parachute', 'confidence3': 0.28726563323289156},
-{'model_name': 'resnet50', 'class_name1': 'crash_helmet', 'confidence1': 71.45811319351196, 'class_name2': 'bicycle-built-for-two', 'confidence2': 17.897695302963257, 'class_name3': 'mountain_bike', 'confidence3': 10.023873299360275},
-{'model_name': 'densenet201', 'class_name1': 'chain_saw', 'confidence1': 50.91845393180847, 'class_name2': 'park_bench', 'confidence2': 34.42687392234802, 'class_name3': 'ashcan', 'confidence3': 8.707599341869354},
-{'model_name': 'convnextbase', 'class_name1': 'motor_scooter', 'confidence1': 49.42852556705475, 'class_name2': 'crash_helmet', 'confidence2': 31.744563579559326, 'class_name3': 'moped', 'confidence3': 8.128572255373001},
-{'model_name': 'efficientnetV2M', 'class_name1': 'speedboat', 'confidence1': 41.84563457965851, 'class_name2': 'crash_helmet', 'confidence2': 7.680385559797287, 'class_name3': 'motor_scooter', 'confidence3': 3.941398113965988}]

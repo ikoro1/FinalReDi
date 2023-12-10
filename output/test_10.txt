@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'mushroom', 'confidence1': 76.18340849876404, 'class_name2': 'agaric', 'confidence2': 22.05519676208496, 'class_name3': 'stinkhorn', 'confidence3': 0.7386237382888794},
-{'model_name': 'resnet50', 'class_name1': 'mushroom', 'confidence1': 77.08420157432556, 'class_name2': 'agaric', 'confidence2': 10.142741352319717, 'class_name3': 'stinkhorn', 'confidence3': 9.355156868696213},
-{'model_name': 'densenet201', 'class_name1': 'ashcan', 'confidence1': 40.32655656337738, 'class_name2': 'cello', 'confidence2': 35.847485065460205, 'class_name3': 'tripod', 'confidence3': 23.574014008045197},
-{'model_name': 'convnextbase', 'class_name1': 'mushroom', 'confidence1': 93.67578029632568, 'class_name2': 'agaric', 'confidence2': 1.000023353844881, 'class_name3': 'earthstar', 'confidence3': 0.3755731740966439},
-{'model_name': 'efficientnetV2M', 'class_name1': 'mushroom', 'confidence1': 82.05820918083191, 'class_name2': 'agaric', 'confidence2': 3.55226993560791, 'class_name3': 'bolete', 'confidence3': 1.0396774858236313}]

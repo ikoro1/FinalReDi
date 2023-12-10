@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'cardigan', 'confidence1': 24.07086044549942, 'class_name2': 'overskirt', 'confidence2': 10.593952238559723, 'class_name3': 'stole', 'confidence3': 7.898671180009842},
-{'model_name': 'resnet50', 'class_name1': 'cardigan', 'confidence1': 35.82717478275299, 'class_name2': 'wig', 'confidence2': 10.39821058511734, 'class_name3': 'lab_coat', 'confidence3': 6.913258135318756},
-{'model_name': 'densenet201', 'class_name1': 'refrigerator', 'confidence1': 98.1867790222168, 'class_name2': 'ashcan', 'confidence2': 1.0207540355622768, 'class_name3': 'cello', 'confidence3': 0.7640371564775705},
-{'model_name': 'convnextbase', 'class_name1': 'steel_drum', 'confidence1': 30.085286498069763, 'class_name2': 'cardigan', 'confidence2': 5.128093063831329, 'class_name3': 'maraca', 'confidence3': 4.583723470568657},
-{'model_name': 'efficientnetV2M', 'class_name1': 'chain_mail', 'confidence1': 14.549016952514648, 'class_name2': 'lab_coat', 'confidence2': 7.478831708431244, 'class_name3': 'bikini', 'confidence3': 2.723308652639389}]

@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'macaque', 'confidence1': 94.79745626449585, 'class_name2': 'baboon', 'confidence2': 4.310911148786545, 'class_name3': 'patas', 'confidence3': 0.528414361178875},
-{'model_name': 'resnet50', 'class_name1': 'macaque', 'confidence1': 53.9353609085083, 'class_name2': 'Airedale', 'confidence2': 11.108166724443436, 'class_name3': 'wire-haired_fox_terrier', 'confidence3': 4.9690306186676025},
-{'model_name': 'densenet201', 'class_name1': 'barn', 'confidence1': 99.99990463256836, 'class_name2': 'park_bench', 'confidence2': 4.6044470991546405e-05, 'class_name3': 'ant', 'confidence3': 3.078300210290763e-05},
-{'model_name': 'convnextbase', 'class_name1': 'macaque', 'confidence1': 50.69666504859924, 'class_name2': 'chimpanzee', 'confidence2': 15.796053409576416, 'class_name3': 'guenon', 'confidence3': 14.488866925239563},
-{'model_name': 'efficientnetV2M', 'class_name1': 'macaque', 'confidence1': 58.369553089141846, 'class_name2': 'baboon', 'confidence2': 14.367127418518066, 'class_name3': 'guenon', 'confidence3': 1.571381837129593}]

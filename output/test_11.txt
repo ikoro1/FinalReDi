@@ -1,5 +1,0 @@
-[{'model_name': 'vgg16', 'class_name1': 'jacamar', 'confidence1': 83.64897966384888, 'class_name2': 'hummingbird', 'confidence2': 15.890590846538544, 'class_name3': 'bee_eater', 'confidence3': 0.45616901479661465},
-{'model_name': 'resnet50', 'class_name1': 'jacamar', 'confidence1': 93.9432680606842, 'class_name2': 'hummingbird', 'confidence2': 3.689022734761238, 'class_name3': 'bee_eater', 'confidence3': 1.702759601175785},
-{'model_name': 'densenet201', 'class_name1': 'church', 'confidence1': 54.18243408203125, 'class_name2': 'rule', 'confidence2': 33.724746108055115, 'class_name3': 'ashcan', 'confidence3': 6.815598160028458},
-{'model_name': 'convnextbase', 'class_name1': 'bee_eater', 'confidence1': 43.13870668411255, 'class_name2': 'jacamar', 'confidence2': 17.254067957401276, 'class_name3': 'water_ouzel', 'confidence3': 4.401087760925293},
-{'model_name': 'efficientnetV2M', 'class_name1': 'water_ouzel', 'confidence1': 16.26357138156891, 'class_name2': 'hummingbird', 'confidence2': 15.939448773860931, 'class_name3': 'jacamar', 'confidence3': 5.308705195784569}]
